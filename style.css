@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.trendhunterstatic.com/thumbs/499/study-timer.jpeg?auto=webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container {
+    background:  rgba(255, 255, 255, 0.500);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  input, button, textarea {
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  
+  }
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-list {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+h2 {
+  text-align: center;
+}
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    input, textarea, button {
+      font-size: 14px;
+    }
+  }

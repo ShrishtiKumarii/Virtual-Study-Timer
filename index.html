@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Study Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Study Timer</h2>
+    <div>
+      <label>Work Time (mins): <input type="number" id="workTime" value="25"></label>
+      <label>Break Time (mins): <input type="number" id="breakTime" value="5"></label>
+    </div>
+    <div>
+      <button onclick="startTimer()">Start</button>
+      <h3 id="timer">00:00</h3>
+      <p id="status">Status: Idle</p>
+    </div>
+    <div>
+      <textarea id="taskInput" placeholder="Enter your task..."></textarea>
+      <button onclick="addTask()">Add Task</button>
+      <div class="task-list" id="taskList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
