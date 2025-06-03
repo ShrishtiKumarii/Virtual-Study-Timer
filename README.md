@@ -19,4 +19,4 @@
 
 * Works great on phones, tablets, and desktops
 
-![Virtual-Study-Timer][./Screenshot/image.png]
+![Virtual Study Timer][./Screenshot/image.png]
